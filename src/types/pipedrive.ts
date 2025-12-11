@@ -93,3 +93,26 @@ export interface PipedrivePerson {
   // Allow additional string keys for custom fields (like the hash-named fields in the JSON)
   [key: string]: any;
 }
+
+// export interface PipedrivePersonPayload {
+//   name?: string;
+//   email?: { value: string; primary: boolean }[];
+//   phone?: { value: string; primary: boolean }[];
+//   [key: string]: any;
+// }
+
+// export interface InputData {
+//   fullName: string;
+//   emailAdress: string;
+//   phoneNumber: {
+//     home: string;
+//     work: string;
+//   };
+//   address: {
+//     country: string;
+//     street: string;
+//     city: string;
+//     state: string;
+//     zip: string;
+//   };
+// }
